@@ -2,7 +2,7 @@ package iH4v3n0N4m3.e3d;
 
 import iH4v3n0N4m3.image.Image;
 
-public abstract class Vertex3D{
+public abstract class Vertex3D extends Vertex{
  protected Vertex3D(){}
  public abstract void draw3DDot(Point3D p);
  public abstract void draw3DRectangle(Point3D p,int w,int h);
