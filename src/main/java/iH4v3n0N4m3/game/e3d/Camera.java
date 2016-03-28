@@ -7,5 +7,8 @@ public interface Camera{
  public void moveLeftward(int a);
  public void moveRightward(int a);
  
+ public void setLocation(Point3D p);
+ public Point3D getLocation();
+ 
  protected Camera();
 }
