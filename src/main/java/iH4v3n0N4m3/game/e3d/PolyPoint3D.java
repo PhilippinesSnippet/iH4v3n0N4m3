@@ -1,4 +1,4 @@
-package iH4v3n0N4m3.e3d;
+package iH4v3n0N4m3.game.e3d;
 
 public class PolyPoint3D{
  private final int x,y,z;
