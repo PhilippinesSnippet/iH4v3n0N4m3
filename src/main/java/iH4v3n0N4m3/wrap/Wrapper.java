@@ -15,5 +15,7 @@ public interface Wrapper{
  public String getVMArguments();
  public File getOutput();
  
+ public void wrap()throws WrapException;
+ 
  protected Wrapper(){}
 }
