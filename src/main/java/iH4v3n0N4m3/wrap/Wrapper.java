@@ -7,11 +7,13 @@ public interface Wrapper{
  public void setNatives(File[] natives);
  public void setManifest(String man);
  public void setVMArguments(String args);
+ public void setOutput(File f);
  
  public File[] getJarFiles();
  public File[] getNatives();
  public String getManifest();
  public String getVMArguments();
+ public File getOutput();
  
  protected Wrapper(){}
 }
